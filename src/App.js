@@ -20,7 +20,9 @@ function App() {
       <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" color="inherit">
         <Toolbar sx={{    display:"flex", justifyContent:"center" , gap:"30px"}} >
-    <Link to={"/all"}><Button variant="text" color="inherit">ALL</Button></Link>
+
+
+    <Link to={"/"}><Button variant="text" color="inherit">ALL</Button></Link>
     <Link to={"/fsd"}><Button variant="text"color="inherit">FULL STACK DEVELOPMENT</Button></Link>
     <Link to={"/datascience"}><Button variant="text"color="inherit">DATA SCIENCE</Button></Link >
     <Link to={"/cybersecurity"}><Button variant="text"color="inherit">CYBER SECURITY</Button></Link >
@@ -30,8 +32,8 @@ function App() {
     </Box>
     </div>
     <Routes>
-    <Route path="/" element={<Context1 />}> </Route>
-      <Route path="/all" element={<Context1 />}> </Route>
+   
+      <Route path="/" element={<Context1 />}> </Route>
       <Route path="/fsd" element={<Context2 />}> </Route>
       <Route path="/datascience" element={<Context3 />}> </Route>
       <Route path="/cybersecurity" element={<Context4 />}> </Route>
