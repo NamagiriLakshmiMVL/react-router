@@ -30,6 +30,7 @@ function App() {
     </Box>
     </div>
     <Routes>
+    <Route path="/" element={<Context1 />}> </Route>
       <Route path="/all" element={<Context1 />}> </Route>
       <Route path="/fsd" element={<Context2 />}> </Route>
       <Route path="/datascience" element={<Context3 />}> </Route>
